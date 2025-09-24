@@ -1,4 +1,4 @@
-Sex-Specific Atrial Modeling Framework
+```Sex-Specific Atrial Modeling Framework
 
 This repository contains the code and data supporting the article:
 
@@ -13,51 +13,41 @@ Repository Contents
 
 🔹 Single Cell Framework
 
- Code to simulate single atrial myocyte behavior.
- 
- Main entry point: Main_Platform.m
- 
- Runs the NH_Single_Cell model.
+  Code to simulate single atrial myocyte behavior:
+  Main entry point: Main_Platform., -> Runs the NH_Single_Cell model.
 
 🔹 Population of Models
 
-Framework for generating and analyzing populations of atrial models.
+ Framework for generating and analyzing populations of atrial models.
 
-Includes both:
+ Includes both:
 
-Pre-generated data for loading/analysis.
+   Pre-generated data for loading/analysis.
+   Scripts for creating new populations.
 
-Scripts for creating new populations.
+ Key scripts:
 
-Key scripts:
-
-A0_generate_perturbations.m → generates parameter perturbation matrices.
-
-A1_Main_platform_population.m → runs the population simulations.
-
-Linear_Regression_Analysis_APD_CaT_Features.m → plots regression coefficients for action potential duration (APD) and CaT amplitude features.
-
-Linear_Regression_Analysis_DAD_Alternans.m → plots regression coefficients for DADs and alternans BCL thresholds.
+   A0_generate_perturbations.m → generates parameter perturbation matrices.
+   A1_Main_platform_population.m → runs the population simulations.
+   Linear_Regression_Analysis_APD_CaT_Features.m → plots regression coefficients for action potential duration (APD) and CaT amplitude features.
+   Linear_Regression_Analysis_DAD_Alternans.m → plots regression coefficients for DADs and alternans BCL thresholds.
 
 
-Getting Started:
+ Getting Started:
 
-  Clone or download this repository.
+   Clone or download this repository.
+   For single cell simulations, start with Main_Platform.m.
   
-  For single cell simulations, start with Main_Platform.m.
+ For population studies:
   
-  For population studies:
-  
-  Generate perturbations with A0_generate_perturbations.m.
-  
-  Run simulations using A1_Main_platform_population.m.
-  
-  Perform regression analyses with the provided analysis scripts.
+   Generate perturbations with A0_generate_perturbations.m.
+   Run simulations using A1_Main_platform_population.m.
+   Perform regression analyses with the provided analysis scripts.
 
-Citation
+Citation:
 
 If you use this code in your work, please cite:
 
 Herrera N, Ni H, Smith CER, Wu Y, Dobrev D, Morotti S, Grandi E. Mechanistic insights into sex differences in atrial electrophysiology and arrhythmia vulnerability through sex‐specific computational models. Journal of Physiology. 2025. doi: 10.1113/JP289425
 
-Ni H, Morotti S, Zhang X, Dobrev D, Grandi E. Integrative human atrial modelling unravels interactive protein kinase A and Ca²⁺/calmodulin-dependent protein kinase II signalling as key determinants of atrial arrhythmogenesis. Cardiovasc Res. 2023;119(13):2294–2311. doi: 10.1093/cvr/cvad118
+Ni H, Morotti S, Zhang X, Dobrev D, Grandi E. Integrative human atrial modelling unravels interactive protein kinase A and Ca²⁺/calmodulin-dependent protein kinase II signalling as key determinants of atrial arrhythmogenesis. Cardiovasc Res. 2023;119(13):2294–2311. doi: 10.1093/cvr/cvad118```
