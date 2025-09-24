@@ -1,1 +1,0 @@
-# Herrera-et-al-2025-Sex-Specific-Human-Atrial-Model
