@@ -10,6 +10,7 @@ This work builds on and extends:
 H. Ni, S. Morotti, X. Zhang, D. Dobrev, E. Grandi. Integrative human atrial modelling unravels interactive protein kinase A and Ca²⁺/calmodulin-dependent protein kinase II signalling as key determinants of atrial arrhythmogenesis. Cardiovasc Res. 2023;119(13):2294–2311. doi: 10.1093/cvr/cvad118
 
 Repository Contents
+
 🔹 Single Cell Framework
     Code to simulate single atrial myocyte behavior.
     Main entry point: Main_Platform.m
@@ -38,6 +39,7 @@ Getting Started:
 Citation
 
 If you use this code in your work, please cite:
+
 Herrera N, Ni H, Smith CER, Wu Y, Dobrev D, Morotti S, Grandi E. Mechanistic insights into sex differences in atrial electrophysiology and arrhythmia vulnerability through sex‐specific computational models. Journal of Physiology. 2025. doi: 10.1113/JP289425
 
 Ni H, Morotti S, Zhang X, Dobrev D, Grandi E. Integrative human atrial modelling unravels interactive protein kinase A and Ca²⁺/calmodulin-dependent protein kinase II signalling as key determinants of atrial arrhythmogenesis. Cardiovasc Res. 2023;119(13):2294–2311. doi: 10.1093/cvr/cvad118
