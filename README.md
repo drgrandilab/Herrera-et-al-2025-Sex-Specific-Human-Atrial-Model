@@ -12,29 +12,47 @@ H. Ni, S. Morotti, X. Zhang, D. Dobrev, E. Grandi. Integrative human atrial mode
 Repository Contents
 
 🔹 Single Cell Framework
-    Code to simulate single atrial myocyte behavior.
-    Main entry point: Main_Platform.m
-        Runs the NH_Single_Cell model.
+
+ Code to simulate single atrial myocyte behavior.
+ 
+ Main entry point: Main_Platform.m
+ 
+ Runs the NH_Single_Cell model.
 
 🔹 Population of Models
-    Framework for generating and analyzing populations of atrial models.
-    Includes both:
-       Pre-generated data for loading/analysis.
-       Scripts for creating new populations.
+
+Framework for generating and analyzing populations of atrial models.
+
+Includes both:
+
+Pre-generated data for loading/analysis.
+
+Scripts for creating new populations.
 
 Key scripts:
+
 A0_generate_perturbations.m → generates parameter perturbation matrices.
+
 A1_Main_platform_population.m → runs the population simulations.
+
 Linear_Regression_Analysis_APD_CaT_Features.m → plots regression coefficients for action potential duration (APD) and CaT amplitude features.
+
 Linear_Regression_Analysis_DAD_Alternans.m → plots regression coefficients for DADs and alternans BCL thresholds.
 
+
 Getting Started:
+
   Clone or download this repository.
+  
   For single cell simulations, start with Main_Platform.m.
+  
   For population studies:
-      Generate perturbations with A0_generate_perturbations.m.
-      Run simulations using A1_Main_platform_population.m.
-      Perform regression analyses with the provided analysis scripts.
+  
+  Generate perturbations with A0_generate_perturbations.m.
+  
+  Run simulations using A1_Main_platform_population.m.
+  
+  Perform regression analyses with the provided analysis scripts.
 
 Citation
 
