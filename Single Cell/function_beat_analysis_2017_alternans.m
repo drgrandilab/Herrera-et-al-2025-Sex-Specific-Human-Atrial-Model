@@ -62,17 +62,6 @@ try
     end
 
 
-    if figures == 1
-        figure(1)
-        subplot(3,1,1),
-        hold on
-        plot (time_at_45, vm_45_int, 'bx')
-        plot (time_at_45_2, vm_45_int_2, 'rx')
-        plot (t0, vm_int, 'bx')
-        plot (t1, vm_int_2, 'rx')
-    end
-
-
 
     %% Calcium ampltitude analysis
     [Ca_max, index_ca] = max(Ca(t0_index:t1_index)); index_ca = find (Ca == Ca_max); % peak CaT
@@ -132,5 +121,6 @@ catch
 
 
 end
+
 
 
